@@ -11,7 +11,7 @@
    BODY
 ========================= */
 body {
-    height: ;100px
+    height: 100px;
     background: linear-gradient(to bottom, #001f2d, #00b4d8);
     font-family: Arial, sans-serif;
     overflow: hidden;
@@ -264,6 +264,7 @@ button:last-child {
 #bigYes.show {
     transform: translate(-50%, -50%) scale(1);
 }
+
 
 
 
