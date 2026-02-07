@@ -34,7 +34,7 @@ body {
 ========================= */
 .card {
     width: 320px;
-    height: 420px;
+    height: auto;
     perspective: 1000px;
     align-self: center;
     z-index: 10;
@@ -264,3 +264,4 @@ button:last-child {
 #bigYes.show {
     transform: translate(-50%, -50%) scale(1);
 }
+
