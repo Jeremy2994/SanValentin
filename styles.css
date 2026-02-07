@@ -11,7 +11,7 @@
    BODY
 ========================= */
 body {
-    height: auto;
+    height: ;100px
     background: linear-gradient(to bottom, #001f2d, #00b4d8);
     font-family: Arial, sans-serif;
     overflow: hidden;
