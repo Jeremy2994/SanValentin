@@ -11,7 +11,7 @@
    BODY
 ========================= */
 body {
-    height: 100px;
+    height: 100vh;
     background: linear-gradient(to bottom, #001f2d, #00b4d8);
     font-family: Arial, sans-serif;
     overflow: hidden;
@@ -34,7 +34,7 @@ body {
 ========================= */
 .card {
     width: 320px;
-    height: auto;
+    height: 420px;
     perspective: 1000px;
     align-self: center;
     z-index: 10;
@@ -42,7 +42,7 @@ body {
 
 .card-inner {
     width: 100%;
-    height: auto;
+    height: 100%;
     position: relative;
     transition: transform 1s;
     transform-style: preserve-3d;
@@ -264,7 +264,3 @@ button:last-child {
 #bigYes.show {
     transform: translate(-50%, -50%) scale(1);
 }
-
-
-
-
