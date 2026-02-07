@@ -21,7 +21,7 @@ function moveNo() {
 
 function sayYes() {
     document.getElementById("response").textContent =
-        "¡Tengamos una cita princesa! 💕🥰";
+        "¡Vamos por unos rollos de Sushi! 💕🥰";
 }
 
 const sunflowers = document.querySelectorAll(".sunflowers");
@@ -37,3 +37,4 @@ card.addEventListener("click", () => {
         bigYes.classList.add("show");
     }, 3000);
 });
+
